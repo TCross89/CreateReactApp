@@ -1,0 +1,28 @@
+h3 {
+  border: 2px solid #1375b0;
+  width: 100%;
+  float: none;
+  display: flex;
+}
+
+h3::before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0;
+  font-size: 36px;
+  padding: 25px 35px;
+  background-image: linear-gradient(to top, #429ce9 0, #1375b0 100%);
+  color: #fff;
+  float: left;
+  line-height: 0;
+  font-weight: 600;
+  clip-path: polygon(0 -1%, 100% -1%, calc(100% - 35px) 100%, 0 100%);
+}
+
+#LoginForm {
+  display: grid;
+  place-content: center;
+}
+
